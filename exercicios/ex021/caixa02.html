@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        header > a {
+            text-decoration: none;
+        }
+
+        nav{
+            background-color: rgb(158, 158, 158);
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-left: 10px;
+            padding-right: 0px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.421);
+        }
+
+        nav > a {
+            margin-right: 10px;
+        }
+
+        article > p {
+            padding-left: 8px;
+        }
+
+        article > aside {
+            background-color: rgb(159, 159, 159);
+            text-align: center;
+            border-radius: 10px;
+
+        }
+
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 4px;
+        }
+
+        footer > p {
+            color: white;
+            margin: 0px;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        article > h2:hover {
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Noticiário</h1>
+    <nav>
+        <a href="#">Política</a>
+        <a href="#">Economia</a>
+        <a href="#">Esportes</a>
+        <a href="#">Celebridades</a>
+        <a href="#">Arte</a>
+    </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        <section id="noticiario">
+        <article>
+           <a href="#"><h2>2023: Lula rouba bilhões</h2></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident corporis reiciendis at magnam veritatis unde repudiandae, cupiditate incidunt possimus tempora aliquid est maxime neque dolor! Est laboriosam perferendis soluta autem.</p>
+                <aside>
+                    <p>Escrito por <a href="#">Sensatez</a></p>
+                </aside>
+        </article>
+
+        </section>   
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por João Emanoel</p>    
+    </footer>
+</body>
+</html>
